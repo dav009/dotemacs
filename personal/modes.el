@@ -1,0 +1,1 @@
+;(add-to-list 'git-gutter:update-hooks 'focus-in-hook)
