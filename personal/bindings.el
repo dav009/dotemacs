@@ -14,6 +14,7 @@
     (lambda () (interactive) (previous-line 5)))
 
 
+(define-key elpy-mode-map (kbd "s-.") 'elpy-goto-definition-other-window)
 (define-key isearch-mode-map (kbd "<up>") 'isearch-ring-retreat )
 (define-key isearch-mode-map (kbd "<down>") 'isearch-ring-advance )
 (define-key isearch-mode-map (kbd "<left>") 'isearch-repeat-backward)
